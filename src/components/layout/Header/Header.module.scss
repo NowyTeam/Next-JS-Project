@@ -11,13 +11,18 @@
     height: 70px;
   }
 
+  &.hide {
+    transform: translateY(-100%);
+  }
+
   .Header_Wrap {
     border-radius: 10px;
     width: 60%;
     height: 50px;
 
     &.active {
-      background-color: #202020;
+      background-color: #242424;
+      box-shadow: 0 0 5px #1b1b1b;
     }
 
     display: flex;
